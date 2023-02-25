@@ -1,11 +1,11 @@
-About django-htmx
-=================
+About django-htmx-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-htmx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/adamchainz/django-htmx
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-htmx-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extensions for using Django with htmx.
 
