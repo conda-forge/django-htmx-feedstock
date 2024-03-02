@@ -1,5 +1,5 @@
 {% set name = "django-htmx" %}
-{% set version = "1.17.2" %}
+{% set version = "1.17.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4089f2ed38727e9846c2f4cd1daddf6b010c7be8d834cfbcffc8c5ecf445c04e
+  sha256: a2069219920d7ef0883ddbf5e8d931069db145a0d4a8a032a2708f840c7a68a6
 
 build:
   noarch: python
