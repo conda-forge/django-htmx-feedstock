@@ -1,5 +1,5 @@
 {% set name = "django-htmx" %}
-{% set version = "1.20.0" %}
+{% set version = "1.21.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6a97ff0256a247a2c20c85c1f81358fa0c9650af52e6064cb6664ae8619c9294
+  sha256: 6ed3b42effd5980f22e68f36cd14ee4311bff3b6cb8435a89e27f45995691572
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >=3.9
-    - django >=3.2
+    - django >=4.2
     - asgiref >=3.6
 
 test:
