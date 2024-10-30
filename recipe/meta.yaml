@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >=3.9
-    - django >=3.2
+    - django >=4.2
     - asgiref >=3.6
 
 test:
