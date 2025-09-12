@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-htmx
-  version: "1.24.0"
+  version: "1.24.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 5a40d4b2a3a4d5a444b516ca7f9c9836dc512dc40634770687989e96999466e5
+  sha256: 2750c05ff673e4c4a86f0d5e79aaff3c1bdd4b1c73089a4e7a3ad4aa4a008ee7
 
 build:
   number: 0
