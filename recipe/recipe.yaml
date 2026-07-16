@@ -24,7 +24,7 @@ requirements:
     - setuptools >=77
   run:
     - python >=${{ python_min }}
-    - django >=4.2
+    - django >=5.2
     - asgiref >=3.6
 
 tests:
